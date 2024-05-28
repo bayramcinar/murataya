@@ -1,0 +1,141 @@
+body {
+  font-family: "Rethink Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 20px;
+}
+#home,
+#about {
+  min-height: 50vh;
+}
+#contact {
+  min-height: 35vh;
+}
+#contact ul {
+  list-style-type: none;
+  padding: 0;
+}
+#contact li {
+  margin: 5px 0;
+}
+
+.navbar {
+  margin: 20px;
+  border-radius: 20px;
+  background-color: #028391;
+}
+.navbarItems {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbarItems a {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.profilImage {
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  margin-block: auto;
+  align-items: center;
+  justify-content: center;
+}
+.imageArea {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home {
+  display: flex;
+  justify-content: space-between;
+}
+#about {
+  margin-block: 50px;
+  display: flex;
+  background-color: #2a629a;
+}
+.infoArea {
+  margin-inline: 25px;
+  margin-block: auto;
+}
+.aboutTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #fff;
+}
+.homeTitle,
+.contactTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #2a629a;
+}
+.aboutText {
+  color: #fafafa;
+}
+.contactBox {
+  background-color: #2a629a;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 150px;
+  border-radius: 20px;
+  height: 150px;
+}
+.contactLink {
+  color: white;
+}
+.fa-brands,
+.fa-solid {
+  font-size: 40px;
+  margin-block: 8px;
+}
+.contactList {
+  margin-inline: auto;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer {
+  background-color: #2a629a;
+  color: white;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
