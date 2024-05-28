@@ -27,10 +27,10 @@ section {
 }
 #home,
 #about {
-  min-height: 77vh;
+  min-height: 100vh;
 }
 #contact {
-  min-height: 77vh;
+  min-height: 100vh;
 }
 #contact ul {
   list-style-type: none;
